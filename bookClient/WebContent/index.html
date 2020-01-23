@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to books</title>
+<link rel="stylesheet" href="a.css">
+</head>
+<body>
+      <form action="index.jsp" method="post">
+  <div class="imgcontainer">
+    <img src="assets/zoho.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="cid"><b>Client_ID</b></label>
+    <input type="text" placeholder="Enter Client_id" name="cid" required><br>
+
+    <label for="csc"><b>Client_Secret</b></label>
+    <input type="password" placeholder="Enter client secret" name="csc" required><br>
+
+	<label for="rt"><b>Refresh token</b></label>
+    <input type="password" placeholder="Enter refresh token" name="rt" required><br>
+    
+    <label for="pwd"><b>Redirect URI</b></label>
+    <input type="text" placeholder="Enter redirect uri" name="uri" required><br>
+    <label for="pwd"><b>Organisation ID</b></label>
+    <input type="text" placeholder="Enter organisation id" name="oid" required><br>
+    <button type="submit">Setup</button><br>
+  </div>
+</form>
+<div class="container">
+<label><center><b>Or</b></center></label><br>
+    <button>Setup with Zoho</button>
+    </div>
+</body>
+</html>
